@@ -1,3 +1,12 @@
+// 1  add event with the deposit btn
+// 2 get the deposit amount from the withdraw input filed
+// 2.5 also make sure to convert input into a number by using parseFloat()
+// 3 get previous deposit total
+// 4 calculate total deposit  amount
+// 5 set total  deposit amount
+// 6 get the previous balance total 
+// 6.5 set the new balance total 
+
 document.getElementById("btn-deposit").addEventListener("click",function(){
     const depositFiled = document.getElementById("deposit-field");
     const newDepositAmountString = depositFiled.value;
